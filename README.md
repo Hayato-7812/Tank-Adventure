@@ -4,7 +4,7 @@
 
 おもちゃの戦車が段ボールの上を障害物をかわしたり敵を倒したりしながら進んでいくアドベンチャーゲーム
 ## デモPLAY
-https://raw.github.com/wiki/Hayato-7812/Home/
+![demo](https://user-images.githubusercontent.com/63275973/112313097-d5139b80-8cea-11eb-8068-4473c53a69d9.gif)
 
 ## ゲーム素材
 
