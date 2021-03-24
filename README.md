@@ -8,10 +8,10 @@
 
 ## ゲーム素材
 
-[SE] https://taira-komori.jpn.org/attack01.html
-[BGM] https://www.hurtrecord.com/bgm/02/
-[プレイ中BGM]https://maoudamashii.jokersounds.com/list/bgm10.html
-(ファンタジー２)
+![SE] (https://taira-komori.jpn.org/attack01.html)
+![BGM] (https://www.hurtrecord.com/bgm/02/)
+![プレイ中BGM] (https://maoudamashii.jokersounds.com/list/bgm10.html)
+<ファンタジー２>
 
 ### 参考サイト
 
