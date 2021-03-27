@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7668830233379833628}
   - component: {fileID: 1071069838382639949}
   - component: {fileID: 4662696204526621781}
-  - component: {fileID: 312237489953519112}
+  - component: {fileID: 8333704272490237137}
   m_Layer: 0
   m_Name: EnemyShell
   m_TagString: EnemyShell
@@ -111,7 +111,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &312237489953519112
+--- !u!114 &8333704272490237137
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -120,9 +120,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2493573318834172911}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 041314e993c4a415183449bcac9f9173, type: 3}
+  m_Script: {fileID: 11500000, guid: e331394ffe3fa4f709a3a0bbd6da4a6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectHP: 1
-  damageSound: {fileID: 8300000, guid: 2448d62aa5f784db6ac9c23688561a32, type: 3}
-  destroySound: {fileID: 8300000, guid: b1ccb9b5b51fb446eb0eb94b6daa5778, type: 3}
+  destroySound: {fileID: 8300000, guid: a8166b3d7acbb4e1781645dd18cf120d, type: 3}

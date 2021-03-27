@@ -157,6 +157,8 @@ MonoBehaviour:
   objectHP: 5
   damageSound: {fileID: 8300000, guid: 37b7b01e895944ede843c7a987fd3265, type: 3}
   destroySound: {fileID: 8300000, guid: 9f5928ea44f064b1dbfa7631101b9e7b, type: 3}
+  itemPrefab: {fileID: 3872656490035600750, guid: 4605ed2b4625946ecbc5e3000c470c22,
+    type: 3}
 --- !u!1 &195263199016569514
 GameObject:
   m_ObjectHideFlags: 0

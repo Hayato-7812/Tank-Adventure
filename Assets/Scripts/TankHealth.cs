@@ -62,6 +62,19 @@ public class TankHealth : MonoBehaviour
     void GoToGameOver()
     {
         SceneManager.LoadScene("GameOver");
+    }
+
+    // publicをつけること（重要ポイント）
+    public void AddHP(int amount)
+    {
+        tankHP += amount;
+
+        // ここは何をコントロールしている考えてみましょう！
+        if (tankHP > 6)
+        {
+            tankHP = 6;
+        }
+
 
     }
 

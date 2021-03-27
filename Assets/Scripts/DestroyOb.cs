@@ -11,7 +11,7 @@ public class DestroyOb : MonoBehaviour
     public int objectHP;
     public AudioClip damageSound;
     public AudioClip destroySound;
-
+    public GameObject itemPrefab;
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Shell"))
@@ -41,6 +41,10 @@ public class DestroyOb : MonoBehaviour
                 Destroy(this.gameObject);
                 AudioSource.PlayClipAtPoint(destroySound, transform.position);
 
+                // ★改良
+                // アイテムの出現場所を調整する。（地面に埋まっているので、Y軸を調整する。）
+                Vector3 pos = transform.position;
+                Instantiate(itemPrefab, new Vector3(pos.x, pos.y + 1, pos.z), new Quaternion(0f, 90f, 90f, 1.0f));
             }
 
 

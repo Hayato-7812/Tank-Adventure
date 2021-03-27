@@ -8,6 +8,7 @@ public class ShellManager : MonoBehaviour
     {
         if (other.CompareTag("EnemyShell"))
         {
+            // EnemyShotShellが当たった時にはEnenyShellを破壊する
             Destroy(other.gameObject);
         }
     }

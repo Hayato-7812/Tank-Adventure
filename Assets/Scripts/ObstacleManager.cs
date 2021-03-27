@@ -10,5 +10,10 @@ public class ObstacleManager : MonoBehaviour
         {
             Destroy(this.gameObject);
         }
+        if (other.CompareTag("Shell"))
+        {
+            Destroy(other.gameObject);
+        }
+
     }
 }
